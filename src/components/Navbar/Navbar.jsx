@@ -19,6 +19,7 @@ export default function Navbar() {
                 <li><NavLink className='mx-2 py-2 text-lg text-slate-900 font-light' to="products">Products</NavLink></li>
                 <li><NavLink className='mx-2 py-2 text-lg text-slate-900 font-light' to="brands">brands</NavLink></li>
                 <li><NavLink className='mx-2 py-2 text-lg text-slate-900 font-light' to="categories">Categories</NavLink></li>
+                <li><NavLink className='mx-2 py-2 text-lg text-slate-900 font-light' to="articles">Blog</NavLink></li>
             </ul>
         </div>
         <div className="flex flex-col lg:flex-row">

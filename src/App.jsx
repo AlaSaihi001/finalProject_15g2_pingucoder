@@ -8,6 +8,7 @@ import NotFound from "./components/NotFound/NotFound";
 import Login from "./components/Login/Login";
 import Cart from "./components/Cart/Cart";
 import Register from "./components/Register/Register";
+import Articles from "./components/Articles/Articles";
 
 let x = createBrowserRouter([
   {
@@ -16,6 +17,7 @@ let x = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: "categories", element: <Categories /> },
+      { path: "articles", element: <Articles /> },
       { path: "brands", element: <Brands /> },
       { path: "cart", element: <Cart /> },
       { path: "products", element: <Products /> },
